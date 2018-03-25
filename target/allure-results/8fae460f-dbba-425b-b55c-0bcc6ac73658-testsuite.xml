@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1521816074928" stop="1521816085929" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Surefire suite : Surefire test</name>
+    <title>Surefire suite : Surefire test</title>
+    <test-cases>
+        <test-case start="1521816075060" stop="1521816084486" status="passed">
+            <name>isTheSearchResultCorrect</name>
+            <description type="text">Enter the text and then compare the search result</description>
+            <steps>
+                <step start="1521816080035" stop="1521816083589" status="passed">
+                    <name>open</name>
+                    <title>Open the page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1521816083590" stop="1521816083681" status="passed">
+                    <name>typeToSearchField[JBehave]</name>
+                    <title>Type: JBehave to the search field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1521816083682" stop="1521816084439" status="passed">
+                    <name>submit</name>
+                    <title>Confirm inputs in the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1521816084441" stop="1521816084484" status="passed">
+                    <name>getOneSearchResult[0]</name>
+                    <title>See the first result of the search</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1521816084442" stop="1521816084463" status="passed">
+                            <name>getSearchResult</name>
+                            <title>See list of results of the search</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Surefire suite"/>
+                <label name="testGroup" value="Surefire test"/>
+                <label name="testClass" value="ExampleTest"/>
+                <label name="testMethod" value="isTheSearchResultCorrect"/>
+                <label name="host" value="EPUAKHAW0166"/>
+                <label name="thread" value="14952@EPUAKHAW0166.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

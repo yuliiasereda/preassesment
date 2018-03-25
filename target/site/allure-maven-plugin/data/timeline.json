@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "EPUAKHAW0166",
+    "threads" : [ {
+      "title" : "14952@EPUAKHAW0166.main(1)",
+      "testCases" : [ {
+        "uid" : "eb712ee0d1667fb7",
+        "name" : "isTheSearchResultCorrect",
+        "title" : "Is the search result correct",
+        "time" : {
+          "start" : 1521816075060,
+          "stop" : 1521816084486,
+          "duration" : 9426
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

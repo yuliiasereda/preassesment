@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1521916333075" stop="1521916356736" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : wedriver_testng_maven</name>
+    <title>Default Suite : wedriver_testng_maven</title>
+    <test-cases>
+        <test-case start="1521916343309" stop="1521916356597" status="passed">
+            <name>isTheSearchResultCorrect</name>
+            <description type="text">Enter the text and then compare the search result</description>
+            <steps>
+                <step start="1521916353386" stop="1521916354320" status="passed">
+                    <name>open</name>
+                    <title>Open the page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1521916354322" stop="1521916354825" status="passed">
+                    <name>typeToSearchField[JBehave]</name>
+                    <title>Type: JBehave to the search field</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1521916354826" stop="1521916356538" status="passed">
+                    <name>submit</name>
+                    <title>Confirm inputs in the search bar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1521916356541" stop="1521916356594" status="passed">
+                    <name>getOneSearchResult[0]</name>
+                    <title>See the first result of the search</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1521916356541" stop="1521916356571" status="passed">
+                            <name>getSearchResult</name>
+                            <title>See list of results of the search</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Default Suite"/>
+                <label name="testGroup" value="wedriver_testng_maven"/>
+                <label name="testClass" value="ExampleTest"/>
+                <label name="testMethod" value="isTheSearchResultCorrect"/>
+                <label name="host" value="MacBook-Air-Yuliia.local"/>
+                <label name="thread" value="4101@MacBook-Air-Yuliia.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

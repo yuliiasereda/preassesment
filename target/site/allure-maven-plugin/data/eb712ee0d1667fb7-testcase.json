@@ -1,0 +1,137 @@
+{
+  "uid" : "eb712ee0d1667fb7",
+  "name" : "isTheSearchResultCorrect",
+  "title" : "Is the search result correct",
+  "time" : {
+    "start" : 1521816075060,
+    "stop" : 1521816084486,
+    "duration" : 9426
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "Enter the text and then compare the search result",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "1cdfe4685ba82b2e",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ {
+    "name" : "open",
+    "title" : "Open the page",
+    "time" : {
+      "start" : 1521816080035,
+      "stop" : 1521816083589,
+      "duration" : 3554
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "typeToSearchField[JBehave]",
+    "title" : "Type: JBehave to the search field",
+    "time" : {
+      "start" : 1521816083590,
+      "stop" : 1521816083681,
+      "duration" : 91
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submit",
+    "title" : "Confirm inputs in the search bar",
+    "time" : {
+      "start" : 1521816083682,
+      "stop" : 1521816084439,
+      "duration" : 757
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "getOneSearchResult[0]",
+    "title" : "See the first result of the search",
+    "time" : {
+      "start" : 1521816084441,
+      "stop" : 1521816084484,
+      "duration" : 43
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "getSearchResult",
+      "title" : "See list of results of the search",
+      "time" : {
+        "start" : 1521816084442,
+        "stop" : 1521816084463,
+        "duration" : 21
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ExampleTest"
+  }, {
+    "name" : "testSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "host",
+    "value" : "EPUAKHAW0166"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testMethod",
+    "value" : "isTheSearchResultCorrect"
+  }, {
+    "name" : "testGroup",
+    "value" : "Surefire test"
+  }, {
+    "name" : "thread",
+    "value" : "14952@EPUAKHAW0166.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  } ],
+  "parameters" : [ ]
+}

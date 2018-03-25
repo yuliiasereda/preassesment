@@ -1,0 +1,1 @@
+{"uuid":"0f8d3979-62ed-4879-a5ef-a3dcb6e163c6","name":"ExampleTest","start":1521918120946,"stop":1521918140495,"children":["a6460850-8dda-46fd-a050-6195baf26e3c"],"afters":[{"name":"suiteTearDown","status":"passed","stage":"finished","description":"","start":1521918140405,"stop":1521918140489}]}

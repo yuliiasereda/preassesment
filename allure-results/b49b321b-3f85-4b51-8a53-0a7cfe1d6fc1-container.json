@@ -1,0 +1,1 @@
+{"uuid":"b49b321b-3f85-4b51-8a53-0a7cfe1d6fc1","name":"BaseTest.deleteAllCookies","description":"","start":1521918140253,"stop":1521918140341,"children":["a6460850-8dda-46fd-a050-6195baf26e3c"],"afters":[{"name":"deleteAllCookies","status":"passed","stage":"finished","description":"","start":1521918140254,"stop":1521918140338}]}
