@@ -18,11 +18,8 @@ public class BaseTest {
 
     @BeforeClass
     public void setup () {
-        //Create a Chrome driver. All test classes use this.
         driver = Driver.getInstance("CHROME");
-        //Create a wait. All test classes use this.
         wait = new WebDriverWait(driver,30);
-        //Maximize Window
         driver.manage().window().maximize();
     }
 

@@ -1,6 +1,5 @@
 package listeners;
 
-import drivers.Driver;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -8,8 +7,9 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import tests.BaseTest;
 
-public class TestListener implements ITestListener {
+public class TestListener extends BaseTest implements ITestListener {
 
     private static String getTestMethodName(ITestResult iTestResult) {
         return iTestResult.getMethod().getConstructorOrMethod().getName();
@@ -41,7 +41,7 @@ public class TestListener implements ITestListener {
 
         // Get driver from Driver and assign to local webdriver variable
         Object testClass = iTestResult.getInstance();
-        WebDriver driver = ((Driver) testClass).getInstance("CHROME");
+        WebDriver driver = ((BaseTest) testClass).getDriver();
 
         // Allure ScreenShotRobot and SaveTestLog (saves screenshot)
         if (driver instanceof WebDriver) {
